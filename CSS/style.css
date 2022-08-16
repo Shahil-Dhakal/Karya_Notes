@@ -1,0 +1,90 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.top_navigation
+{
+    background-color: rgba(0, 0, 62, 0.729);
+    letter-spacing: 5px;
+    font-size: larger;
+    color: whitesmoke;
+}
+
+.Ftext
+{
+    color: rgb(91, 3, 3);
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.nav_div
+{
+    margin: 0;
+}
+
+.navigation
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: whitesmoke;
+}
+
+.navLinks
+{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.navLinks:hover
+{
+    border-bottom: 2px solid rgba(0, 0, 62, 0.729);
+    border-right: 1px solid rgba(0, 0, 62, 0.729);
+    border-left: 1px solid rgba(0, 0, 62, 0.729);
+    border-radius: 11px;
+    /* transition: 0.8s ease; */
+}
+
+.navLinks:active
+{
+    color: rgb(91, 3, 3);
+}
+
+.sliding-image-div
+{
+    height: 500px;
+    overflow: hidden;
+}
+
+.sliding_images
+{
+    height: 100%;
+    width: 100%;
+}
+
+.after-slider
+{
+    height: 155px;
+    background-color: rgba(0, 0, 62, 0.729);
+}
+
+h3
+{
+    margin: 0;
+    color: rgb(72, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}

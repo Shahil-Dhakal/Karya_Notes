@@ -1,0 +1,21 @@
+/* CSS for tablets */
+
+@media only screen and (max-width: 600px)
+{
+    .Ftext
+    {
+        color: rgb(231, 0, 0);
+    }
+
+    .navigation
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    h3
+    {
+        font-size: smaller;
+        color: rgb(95, 0, 0);
+    }
+}
